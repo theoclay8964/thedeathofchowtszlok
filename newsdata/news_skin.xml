@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+    
+  <!-- Spot Style - 防暴 -->
+
+
+  <style name="Icon防暴"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint0.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+
+         />
+
+
+
+    
+  <!-- Spot Style - 催淚彈 -->
+
+
+  <style name="Icon催淚彈"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint2.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+
+         />
+
+
+
+    
+  <!-- Spot Style - 場景2 -->
+
+
+  <style name="Icon場景2"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_defaultpoint1.png"
+         visible="false"
+         frame="0"
+         lastframe="15"
+         framewidth="98"
+         frameheight="48"
+         stopspotsequence="false"
+         crop="0|0|98|48"
+         edge="center"
+         rotate="270"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(touch);"
+         onhover="onhoverIcon場景2"
+         onout="onoutIcon場景2"
+
+         height="40"
+         width="55"
+         />
+  <action name="onhoverIcon場景2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon場景2">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - CCTV -->
+
+
+  <style name="IconCCTV"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint3.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+         height="28"
+         width="28"
+         />
+
+
+
+    
+  <!-- Spot Style - 周梓樂A -->
+
+
+  <style name="Icon周梓樂A"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint4.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+         height="45"
+         width="35"
+         />
+
+
+
+    
+  <!-- Spot Style - 停車場矮牆 -->
+
+
+  <style name="Icon停車場矮牆"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint5.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+
+         />
+
+
+
+    
+  <!-- Spot Style - 周梓樂B -->
+
+
+  <style name="Icon周梓樂B"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint6.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+         height="45"
+         width="35"
+         />
+
+
+
+    
+  <!-- Spot Style - 場景3 -->
+
+
+  <style name="Icon場景3"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_defaultpoint7.png"
+         visible="false"
+         frame="0"
+         lastframe="15"
+         framewidth="98"
+         frameheight="48"
+         stopspotsequence="false"
+         crop="0|0|98|48"
+         edge="center"
+         rotate="270"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(touch);"
+         onhover="onhoverIcon場景3"
+         onout="onoutIcon場景3"
+
+         height="25"
+         width="40"
+         />
+  <action name="onhoverIcon場景3">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon場景3">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 場景4 -->
+
+
+  <style name="Icon場景4"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_defaultpoint8.png"
+         visible="false"
+         frame="0"
+         lastframe="15"
+         framewidth="98"
+         frameheight="48"
+         stopspotsequence="false"
+         crop="0|0|98|48"
+         edge="center"
+         rotate="195"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(touch);"
+         onhover="onhoverIcon場景4"
+         onout="onoutIcon場景4"
+
+         height="30"
+         width="40"
+         />
+  <action name="onhoverIcon場景4">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon場景4">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 墮樓高牆 -->
+
+
+  <style name="Icon墮樓高牆"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint9.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+         height="40"
+         width="35"
+         />
+
+
+
+    
+  <!-- Spot Style - 周梓樂C -->
+
+
+  <style name="Icon周梓樂C"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint10.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+
+         />
+
+
+
+    
+  <!-- Spot Style - 場景5 -->
+
+
+  <style name="Icon場景5"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_defaultpoint11.png"
+         visible="false"
+         frame="0"
+         lastframe="15"
+         framewidth="98"
+         frameheight="48"
+         stopspotsequence="false"
+         crop="0|0|98|48"
+         edge="center"
+         rotate="270"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(touch);"
+         onhover="onhoverIcon場景5"
+         onout="onoutIcon場景5"
+
+         height="35"
+         width="35"
+         />
+  <action name="onhoverIcon場景5">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon場景5">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - 消防 -->
+
+
+  <style name="Icon消防"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint12.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+
+         />
+
+
+
+    
+  <!-- Spot Style - 急救員 -->
+
+
+  <style name="Icon急救員"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint13.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+
+         />
+
+
+
+    
+  <!-- Spot Style - 防暴B -->
+
+
+  <style name="Icon防暴B"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint14.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         crop="0|0|40|60"
+         edge="center"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(all);"
+
+         height="45"
+         width="40"
+         />
+
+
+
+<!-- ********** -->
+<!-- Website Box -->
+<!-- id : websiteViewer -->
+<!-- ********** -->
+
+<ptplugin name="websiteViewer" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="ffffff" type="string" />
+		<option name="container_alpha" value="0.80000000000000004" type="float" />
+		<option name="container_topleft_border_radius" value="15" type="int" />
+		<option name="container_topright_border_radius" value="15" type="int" />
+		<option name="container_bottomleft_border_radius" value="15" type="int" />
+		<option name="container_bottomright_border_radius" value="15" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="title_displayed" value="false" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Verdana" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="000000" type="string" />
+		<option name="caption_displayed" value="false" type="bool" />
+		<option name="iframe_scrolling" value="auto" type="string" />
+		<option name="iframe_default_width" value="650" type="int" />
+		<option name="iframe_default_height" value="800" type="int" />
+		<option name="iframe_devices_width" value="1100" type="int" />
+		<option name="iframe_devices_height" value="800" type="int" />
+		<option name="force_ios_scrolling" value="true" type="bool" />
+		<option name="fullscreen_displayed" value="false" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="websiteViewerfullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="websiteViewerclose_text" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_websiteViewer')" type="string" />
+		<option name="zorder" value="1" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_websiteViewer">
+	set(ptplugin[websiteViewer].jsready, true);
+</action>
+
+<action name="openWebsite_websiteViewer">
+	ifnot(ptplugin[websiteViewer].isOpen,
+		set(ptplugin[websiteViewer].isOpen, true);
+		set(ptplugin[websiteViewer].doNotDeleteMe, false);
+		getmessage(websiteViewer_boxurl, %1);
+		txtadd(websiteViewer_boxurl, ?iframe=true);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(websiteViewer, loadSingleArrayItem, get(websiteViewer_boxurl), %2));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if('%1' != websiteViewer_boxurl,
+			closeKolorBox_websiteViewer();
+			delayedcall(0.3,openWebsite_websiteViewer(%1,%2););
+		);
+	);
+</action>
+
+<action name="toggleWebsite_websiteViewer">
+	js(invokePluginFunction(websiteViewer, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_websiteViewer">
+	js(invokePluginFunction(websiteViewer, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_websiteViewer">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[websiteViewer].isOpen, false);
+</action>
+
+<action name="changeLanguage_websiteViewer">
+	if(ptplugin[websiteViewer].jsready,
+		stopdelayedcall(delay_websiteViewer);
+		js(invokePluginFunction(websiteViewer, changeLanguage));
+	,
+		delayedcall(delay_websiteViewer, 0.1, changeLanguage_websiteViewer(););
+	);
+</action>
+
+<events name="kolorBoxEvents_websiteViewer" 
+	keep="true"
+	changetourlanguage="changeLanguage_websiteViewer();"
+	/>
+
+  <!-- ************* -->
+  <!-- Panorama Menu -->
+  <!-- ************* -->
+
+<ptplugin name="panoramaMenu" engine="kolorMenu">
+	<settings>
+		<option name="position" value="bottom" type="string" />
+		<option name="orientation" value="horizontal" type="string" />
+		<option name="sub_orientation" value="vertical" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="margins_on_items" value="true" type="bool" />
+		<option name="margins_both" value="true" type="bool" />
+		<option name="background_color" value="000000" type="string" />
+		<option name="background_alpha" value="0.80000000000000004" type="float" />
+		<option name="item_spacer" value="5" type="int" />
+		<option name="border_radius" value="5" type="int" />
+		<option name="full_size" value="true" type="bool" />
+		<option name="use_out_effect" value="true" type="bool" />
+		<option name="item_out_border_radius" value="5" type="int" />
+		<option name="item_hover_border_radius" value="5" type="int" />
+		<option name="item_out_border_width" value="0" type="int" />
+		<option name="item_hover_border_width" value="0" type="int" />
+		<option name="item_out_bg_color" value="000000" type="string" />
+		<option name="item_out_bg_alpha" value="0.80000000000000004" type="float" />
+		<option name="item_out_font_color" value="ffffff" type="string" />
+		<option name="item_out_font_family" value="Arial" type="string" />
+		<option name="item_out_font_size" value="14" type="int" />
+		<option name="item_out_font_weight" value="normal" type="string" />
+		<option name="item_out_font_style" value="normal" type="string" />
+		<option name="item_out_font_decoration" value="normal" type="string" />
+		<option name="use_hover_effect" value="true" type="bool" />
+		<option name="item_hover_bg_color" value="000000" type="string" />
+		<option name="item_hover_bg_alpha" value="0.80000000000000004" type="float" />
+		<option name="item_hover_font_color" value="ffffff" type="string" />
+		<option name="item_hover_font_family" value="Arial" type="string" />
+		<option name="item_hover_font_size" value="14" type="int" />
+		<option name="item_hover_font_weight" value="normal" type="string" />
+		<option name="item_hover_font_style" value="normal" type="string" />
+		<option name="item_hover_font_decoration" value="normal" type="string" />
+		<option name="padding_main" value="0" type="int" />
+		<option name="padding_sub" value="0" type="int" />
+		<option name="text_align" value="right" type="string" />
+		<option name="item_thumb_max_width" value="60" type="int" />
+		<option name="item_thumb_max_height" value="30" type="int" />
+		
+		<option name="zorder" value="2" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+				<group name="group_1"
+						titleID=""
+						thumbnail="newsdata/panorama_20210129_s0_10/thumbnail.jpg"
+						subMenu="false"
+						cssClass="panogroup11"> 
+
+				
+				
+						<item name="group_1_item_1"
+							action="invokeKrFunction('mainloadscene', 'pano10')"
+								titleID=""
+								thumbnail="newsdata/panorama_20210129_s0_10/thumbnail.jpg"
+							cssClass="pano10">
+						
+						
+						</item>
+					
+						<option name="background_color" value="a0a0a0" type="string" />
+						<option name="background_alpha" value="1" type="float" />
+					
+				</group>
+				<group name="group_2"
+						titleID=""
+						thumbnail="newsdata/panorama_20210129_s0_12/thumbnail.jpg"
+						subMenu="false"
+						cssClass="panogroup13"> 
+
+				
+				
+						<item name="group_2_item_1"
+							action="invokeKrFunction('mainloadscene', 'pano12')"
+								titleID=""
+								thumbnail="newsdata/panorama_20210129_s0_12/thumbnail.jpg"
+							cssClass="pano12">
+						
+						
+						</item>
+					
+						<option name="background_color" value="8c8c8c" type="string" />
+						<option name="background_alpha" value="1" type="float" />
+					
+				</group>
+				<group name="group_3"
+						titleID=""
+						thumbnail="newsdata/panorama_20210129_s0_14/thumbnail.jpg"
+						subMenu="false"
+						cssClass="panogroup15"> 
+
+				
+				
+						<item name="group_3_item_1"
+							action="invokeKrFunction('mainloadscene', 'pano14')"
+								titleID=""
+								thumbnail="newsdata/panorama_20210129_s0_14/thumbnail.jpg"
+							cssClass="pano14">
+						
+						
+						</item>
+					
+						<option name="background_color" value="787878" type="string" />
+						<option name="background_alpha" value="1" type="float" />
+					
+				</group>
+				<group name="group_4"
+						titleID=""
+						thumbnail="newsdata/panorama_20210129_s0_16/thumbnail.jpg"
+						subMenu="false"
+						cssClass="panogroup17"> 
+
+				
+				
+						<item name="group_4_item_1"
+							action="invokeKrFunction('mainloadscene', 'pano16')"
+								titleID=""
+								thumbnail="newsdata/panorama_20210129_s0_16/thumbnail.jpg"
+							cssClass="pano16">
+						
+						
+						</item>
+					
+						<option name="background_color" value="646464" type="string" />
+						<option name="background_alpha" value="1" type="float" />
+					
+				</group>
+				<group name="group_5"
+						titleID=""
+						thumbnail="newsdata/panorama_20210129_s0_18/thumbnail.jpg"
+						subMenu="false"
+						cssClass="panogroup19"> 
+
+				
+				
+						<item name="group_5_item_1"
+							action="invokeKrFunction('mainloadscene', 'pano18')"
+								titleID=""
+								thumbnail="newsdata/panorama_20210129_s0_18/thumbnail.jpg"
+							cssClass="pano18">
+						
+						
+						</item>
+					
+						<option name="background_color" value="505050" type="string" />
+						<option name="background_alpha" value="1" type="float" />
+					
+				</group>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorMenuJsReady_panoramaMenu">
+	set(ptplugin[panoramaMenu].jsready, true);
+</action>
+
+<action name="showKolorMenu_panoramaMenu">
+	
+	ifnot(ptplugin[panoramaMenu].isOpen,
+		stopdelayedcall(delay_panoramaMenu);
+		set(ptplugin[panoramaMenu].isOpen, true);
+		set(ptplugin[panoramaMenu].displayed, true);
+		js(openKolorMenu(panoramaMenu));
+	,
+		if(ptplugin[panoramaMenu].jsready,
+			stopdelayedcall(delay_panoramaMenu);
+			set(ptplugin[panoramaMenu].displayed, true);
+			js(invokePluginFunction(panoramaMenu, showKolorMenu));
+		,
+			delayedcall(delay_panoramaMenu, 0.1, showKolorMenu_panoramaMenu(););
+		);
+	);
+</action>
+
+<action name="hideKolorMenu_panoramaMenu">
+	if(ptplugin[panoramaMenu].jsready,
+		stopdelayedcall(delay_panoramaMenu);
+		set(ptplugin[panoramaMenu].displayed, false);
+		js(invokePluginFunction(panoramaMenu, hideKolorMenu));
+	,
+		delayedcall(delay_panoramaMenu, 0.1, hideKolorMenu_panoramaMenu(););
+	);
+</action>
+
+
+<action name="changeLanguage_panoramaMenu">
+	if(ptplugin[panoramaMenu].jsready,
+		stopdelayedcall(delay_panoramaMenu);
+		js(invokePluginFunction(panoramaMenu, changeLanguage));
+	,
+		delayedcall(delay_panoramaMenu, 0.1, changeLanguage_panoramaMenu(););
+	);
+</action>
+
+
+<events name="kolorMenuEvents_panoramaMenu" 
+	keep="true"
+	
+	
+	onTourStart="showKolorMenu_panoramaMenu();"
+	hidetourcontrols="hideKolorMenu_panoramaMenu();"
+	showtourcontrols="showKolorMenu_panoramaMenu();"
+	changetourlanguage="changeLanguage_panoramaMenu"
+/>
+
+<!-- ********** -->
+<!-- Button -->
+<!-- id : button -->
+<!-- ********** -->
+
+  <layer name="button"
+         keep="true"
+         url="%FIRSTXML%/graphics/button/dead.gif"
+         align="bottomright"
+         x="10"
+         y="60"
+         zorder="3"
+         visible="false"
+         onclick="buttonOnClick"
+         />
+
+
+
+  <action name="buttonOnClick">getmessage(urltoopen,buttononclick102206openurlwebsiteurl);openurl(get(urltoopen),_blank);
+
+
+  </action>
+
+  <events name="buttonevents"
+    onTourStart="showbutton();"
+    hidetourcontrols="hidebutton();"
+    showtourcontrols="showbutton();"
+    keep="true" />
+  <action name="hidebutton">set(layer[button].visible, false);</action>
+  <action name="showbutton">if(tour_displaycontrols,set(layer[button].visible, true);,hidebutton(););</action>
+
+
+<!-- ********** -->
+<!-- Loading Information -->
+<!-- id : loaderinfo -->
+<!-- ********** -->
+
+  <events name="loaderinfoevent" onxmlcomplete="loaderinfoupdate();" keep="true"/>
+
+  <action name="loaderinfoupdate">
+    if(scene[get(xml.scene)].video,
+      set(layer[loaderinfotextfield].visible, false);
+    ,
+      if (progress.progress == 1,
+        delayedcall(0.5, set(layer[loaderinfotextfield].visible, false); );
+      ,
+        set(layer[loaderinfotextfield].visible, true);
+      );
+      mul(progresstext, get(progress.progress),100);
+      roundval(progresstext);
+      txtadd(progresstext, get(progresstext), %);
+      set(layer[loaderinfotextfield].html, get(progresstext));
+      ifnot(progress.progress GE 1, delayedcall(0.01, loaderinfoupdate() ));
+    );
+  </action>
+
+  <layer name="loaderinfotextfield"
+         keep="true"
+         zorder="4"
+         type="text"
+         align="center"
+         x="0"
+         y="0"
+         bgborder="0"
+         bg="false"
+         capture="false"
+         handcursor="false"
+         interactivecontent="false"
+         alpha="1"
+         visible="true"
+         css="
+         text-align:center;
+         color:#ffffff;
+         font-family:Arial;
+         font-weight:bold;
+         font-size:16px;
+         "
+  />
+
+<!-- ********** -->
+<!-- Button - Scene specific -->
+<!-- id : buttonForASinglePano -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano/message.gif"
+         align="center"
+         x="0"
+         y="0"
+         zorder="5"
+         visible="false"
+         onclick="buttonForASinglePanoOnClick"
+         />
+
+
+
+  <action name="buttonForASinglePanoOnClick">hidebuttonForASinglePano();
+
+
+  </action>
+
+  <events name="buttonForASinglePanoevents"
+    onTourStart="showbuttonForASinglePano();"
+    hidetourcontrols="hidebuttonForASinglePano();"
+    showtourcontrols="showbuttonForASinglePano();"
+
+    onPanoStart="showbuttonForASinglePano();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano">set(layer[buttonForASinglePano].visible, false);</action>
+  <action name="showbuttonForASinglePano">
+    set(display_buttonForASinglePano, false);
+    if(tour_displaycontrols,
+
+
+    if (xml.scene == pano10, set(display_buttonForASinglePano, true); );
+
+
+    );
+    if (display_buttonForASinglePano,
+      set(layer[buttonForASinglePano].visible, true);
+    ,
+      hidebuttonForASinglePano();
+    );
+  </action>
+
+
+
+</krpano>
